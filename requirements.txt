@@ -1,5 +1,4 @@
 # requirements.txt
-python==3.4.10
 fastapi==0.82.0
 joblib==1.0.1
 lightgbm==3.3.0

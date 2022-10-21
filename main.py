@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import requests
-from streamlit_echarts import st_echarts
 import shap
 import pickle
 import plotly.express as px
@@ -121,7 +120,7 @@ option = {
     }]
 };
 
-st_echarts(options=option, key="1")
+#st_echarts(options=option, key="1")
 
 #________Feature_importance_locale________________________
 
